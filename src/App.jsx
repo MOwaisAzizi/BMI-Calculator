@@ -15,7 +15,7 @@ function App(){
     if(result < 17.1 && result >= 15 ) setCatagory('Underweight')
       else if(result >= 17.1 && result < 23.2 ) setCatagory('Normal')
       else if(result >= 23.2 && result < 38 ) setCatagory('overweight')
-      else if( result < 15 && result >= 38 ) setCatagory('uncurrect input detected')
+      else if( result < 15 || result >= 38 ) setCatagory('uncurrect input detected')
   },[result])
 
   return (
@@ -30,7 +30,7 @@ function App(){
             <input type="number" id="weight" onChange={(e)=>setWeight(e.target.value)} placeholder="kg" required/>
         </div>
         <button type="submit" onClick={handleOperation}>Result</button>
-        <h2>{result}</h2>
+        <h2>{result === 0 ? '' : result.toFixed(2)}</h2>
         <h2>{catagory}</h2>
     </div>
 </div>
