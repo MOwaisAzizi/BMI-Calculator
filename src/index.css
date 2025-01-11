@@ -64,3 +64,28 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.flag-toolbar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid #000; /* Optional border */
+  overflow: hidden; /* Prevent overflow */
+  display: flex;
+}
+
+.stripe {
+  width: 100%; /* Full width of the toolbar */
+  height: 100%; /* Equal height for three stripes */
+}
+
+.stripe1 {
+  background-color: blue; /* First color */
+}
+
+.stripe2 {
+  background-color: rgb(17, 223, 38); /* Second color */
+}
+
+.stripe3 {
+  background-color: red; /* Third color */
+}

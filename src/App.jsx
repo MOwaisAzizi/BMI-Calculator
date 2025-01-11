@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 
 function App(){
 
+  //states
   const [hight,setHight] = useState(0)
   const [weight,setWeight] = useState(0)
   const [result,setResutl] = useState(0)
@@ -15,7 +16,7 @@ function App(){
     if(result < 17.1 && result >= 15 ) setCatagory('Underweight')
       else if(result >= 17.1 && result < 23.2 ) setCatagory('Normal')
       else if(result >= 23.2 && result < 38 ) setCatagory('overweight')
-      else if( result < 15 || result >= 38 ) setCatagory('uncurrect input detected')
+      else if( (result < 15 || result >= 38) && result !== 0 ) setCatagory('uncurrect input detected')
   },[result])
 
   return (
@@ -32,6 +33,13 @@ function App(){
         <button type="submit" onClick={handleOperation}>Result</button>
         <h2>{result === 0 ? '' : result.toFixed(2)}</h2>
         <h2>{catagory}</h2>
+
+        <div class="flag-toolbar">
+        <div class="stripe stripe1"></div>
+        <div class="stripe stripe2"></div>
+        <div class="stripe stripe3"></div>
+       </div>
+
     </div>
 </div>
   )
