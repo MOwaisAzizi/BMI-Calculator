@@ -39,7 +39,6 @@ function App(){
         <div className="stripe stripe1"></div>
         <div className="stripe stripe2"></div>
         <div className="stripe stripe3"></div>
-        <h1>l1111111</h1>
        </div>
 
     </div>
