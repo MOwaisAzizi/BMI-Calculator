@@ -71,6 +71,7 @@ button:hover {
   border: 1px solid #000; /* Optional border */
   overflow: hidden; /* Prevent overflow */
   display: flex;
+  /* position: relative; */
 }
 
 .stripe {
@@ -87,5 +88,12 @@ button:hover {
 }
 
 .stripe3 {
-  background-color: red; /* Third color */
+  background-color: rgb(230, 12, 12); /* Third color */
+}
+h1{
+  color: black;
+  background-color: white;
+  /* position: absolute; */
+  /* right: 20px; */
+  z-index: 10;
 }

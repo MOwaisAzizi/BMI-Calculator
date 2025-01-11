@@ -9,6 +9,7 @@ function App(){
   const [catagory,setCatagory] = useState('')
 
   function handleOperation(){
+    if(!hight && !weight) return
     setResutl(weight / ((hight/100) * (hight/100)))
   }
 
@@ -34,10 +35,11 @@ function App(){
         <h2>{result === 0 ? '' : result.toFixed(2)}</h2>
         <h2>{catagory}</h2>
 
-        <div class="flag-toolbar">
-        <div class="stripe stripe1"></div>
-        <div class="stripe stripe2"></div>
-        <div class="stripe stripe3"></div>
+        <div className="flag-toolbar">
+        <div className="stripe stripe1"></div>
+        <div className="stripe stripe2"></div>
+        <div className="stripe stripe3"></div>
+        <h1>l1111111</h1>
        </div>
 
     </div>
