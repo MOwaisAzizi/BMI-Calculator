@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Pipe.css';
 
-const Pipe = () => {
+const Pipe = ({result}) => {
   const [fillLevel, setFillLevel] = useState(0); 
 
   const handleIncrease = () => {
@@ -12,14 +12,10 @@ const Pipe = () => {
 
   return (
     <div className="pipe-container" onClick={handleIncrease}>
-      {/* <div className="pipe" style={{ width: `${fillLevel}%`}} > */}
         <span className='sp1'></span>
         <span className='sp2'></span>
         <span className='sp3'></span>
-      {/* </div> */}
-
-      <div className="pipe" style={{position:'absolute', top:'-5px', left: `${fillLevel}%`}}>l</div>
-   
+      <div className="pipe" style={{position:'absolute', top:'-5px', left: `${result/4}%`}}>l</div>
     </div>
   );
 };
