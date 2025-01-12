@@ -15,9 +15,9 @@ const Pipe = ({result}) => {
   return (
 <div>
 <div className='number-contianer'>
-<span className='numbers under'>15</span>
-<span className='numbers normal'>17</span>
-<span className='numbers over'>23</span>
+<span className='numbers under'>14</span>
+<span className='numbers normal'>18.5</span>
+<span className='numbers over'>25</span>
 <span className='numbers last'>38</span>
 </div>
 
@@ -25,7 +25,7 @@ const Pipe = ({result}) => {
         <span className='sp1'>Underweight</span>
         <span className='sp2'>Normal</span>
         <span className='sp3'>Overweight</span>
-      <div className="pipe" style={{position:'absolute', top:'-10px', left:`${((result-15)/(23)) * 100}%`}}>l</div>
+      <div className="pipe" style={{position:'absolute', top:'-10px', left:`${((result-14)/(24)) * 100}%`}}>l</div>
     </div>
 </div>
   );

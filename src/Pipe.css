@@ -13,11 +13,11 @@
 }
 .normal{
     position: absolute;
-    left: 32%;
+    left: 16.5%;
    }
    .over{
     position: absolute;
-    left: 65%;
+    left: 45%;
    }
    .last{
     position: absolute;
@@ -33,31 +33,32 @@
     overflow: hidden;
     display: flex;
     color: white;
+    font-size: 11px;
   }
   
   .pipe {
     height: 100%;
     position: absolute;
     bottom: 0;
-    color: black;
+    font-size: 16px;
+    color: rgb(19, 15, 15);
     font-weight: 800;
   }
   .sp1{
     background-color: rgb(56, 89, 255);
-    width: 33.3%;
+    width: 19.53%;
     align-content: center;
     text-align: center;
   }
   .sp2{
     background-color: rgb(36, 240, 17);
-    width: 33.3%;
+    width: 27%;
     align-content: center;
     text-align: center;
-
   }
   .sp3{
     background-color: rgb(247, 22, 22);
-    width: 33.3%;
+    width: 53.47%;
     align-content: center;
     text-align: center;
 
