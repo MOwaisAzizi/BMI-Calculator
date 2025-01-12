@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Pipe.css';
 
 const Pipe = ({result}) => {
-  const [fillLevel, setFillLevel] = useState(0); 
+  const [fillLevel, setFillLevel] = useState(0);
 
   const handleIncrease = () => {
     if (fillLevel < 100) {
@@ -12,10 +12,10 @@ const Pipe = ({result}) => {
 
   return (
     <div className="pipe-container" onClick={handleIncrease}>
-        <span className='sp1'></span>
-        <span className='sp2'></span>
-        <span className='sp3'></span>
-      <div className="pipe" style={{position:'absolute', top:'-5px', left: `${result/4}%`}}>l</div>
+        <span className='sp1'>Underweight</span>
+        <span className='sp2'>Normal</span>
+        <span className='sp3'>Overweight</span>
+      <div className="pipe" style={{position:'absolute', top:'-5px', left: `${((result-15)/(38-15)) * 100}%`}}>l</div>
     </div>
   );
 };

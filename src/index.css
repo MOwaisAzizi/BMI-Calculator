@@ -91,8 +91,8 @@ button:hover {
   background-color: rgb(230, 12, 12); /* Third color */
 }
 h1{
-  color: black;
   background-color: white;
+  color: rgb(255, 47, 0);
   /* position: absolute; */
   /* right: 20px; */
   z-index: 10;

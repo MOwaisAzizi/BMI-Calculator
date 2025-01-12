@@ -34,7 +34,7 @@ function App(){
         </div>
         <button type="submit" onClick={handleOperation}>Result</button>
         <h2>{result === 0 ? '' : result.toFixed(2)}</h2>
-        <h2>{catagory}</h2>
+        {/* <h2>{catagory}</h2> */}
 
     <Pipe result = {result}/>
 
