@@ -1,15 +1,31 @@
-/* Pipe.css */
 .pipe-container {
     width: 100%;
-    height: 50px;
-    border: 2px solid #000;
+    height: 30px;
+    border: 1px solid #6d6a6a;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
+    display: flex;
   }
   
   .pipe {
+    height: 100%;
     position: absolute;
     bottom: 0;
-    background: linear-gradient(to top, red, yellow, green); /* رنگ‌های مختلف */
+    /* background: linear-gradient(to right, rgb(235, 8, 8), rgb(8, 206, 8), blue);  */
+  }
+  .sp1{
+    background-color: rgb(247, 22, 22);
+    width: 33.3%;
+  }
+  .sp2{
+    background-color: rgb(36, 240, 17);
+    width: 33.3%;
+
+  }
+  .sp3{
+    background-color: rgb(14, 85, 240);
+    width: 33.3%;
+
   }
   

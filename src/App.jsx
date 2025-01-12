@@ -35,12 +35,7 @@ function App(){
         <button type="submit" onClick={handleOperation}>Result</button>
         <h2>{result === 0 ? '' : result.toFixed(2)}</h2>
         <h2>{catagory}</h2>
-
-        {/* <div className="flag-toolbar">
-        <div className="stripe stripe1"></div>
-        <div className="stripe stripe2"></div>
-        <div className="stripe stripe3"></div>
-       </div> */}
+        
        <Pipe/>
 
     </div>
