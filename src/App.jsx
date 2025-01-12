@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Pipe from "./Pipe"
 
 function App(){
 
@@ -35,11 +36,12 @@ function App(){
         <h2>{result === 0 ? '' : result.toFixed(2)}</h2>
         <h2>{catagory}</h2>
 
-        <div className="flag-toolbar">
+        {/* <div className="flag-toolbar">
         <div className="stripe stripe1"></div>
         <div className="stripe stripe2"></div>
         <div className="stripe stripe3"></div>
-       </div>
+       </div> */}
+       <Pipe/>
 
     </div>
 </div>
