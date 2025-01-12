@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import Pipe from "./Pipe"
 
 function App(){
-  //states
   const [hight,setHight] = useState(0)
   const [weight,setWeight] = useState(0)
   const [result,setResutl] = useState(0)
