@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import Pipe from "./Pipe"
 
 function App(){
-
   //states
   const [hight,setHight] = useState(0)
   const [weight,setWeight] = useState(0)
@@ -11,7 +10,7 @@ function App(){
 
   function handleOperation(){
     if(!hight && !weight) return
-    setResutl(weight / ((hight/100) * (hight/100)))
+    setResutl(weight / (hight * hight))
   }
 
   useEffect(function(){
