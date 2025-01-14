@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Pipe.css';
+import { FaPerson } from "react-icons/fa6";
+import { GiPerson } from "react-icons/gi";
 
 const Pipe = ({result}) => {
   const [fillLevel, setFillLevel] = useState(0);
@@ -21,12 +23,18 @@ const Pipe = ({result}) => {
 <span className='numbers last'>38</span>
 </div>
 
+  <div style={{display:'flex'}}>
+  <GiPerson color='black' size={'25px'} style={{marginTop:'3px'}}/>
     <div className="pipe-container" onClick={handleIncrease}>
         <span className='sp1'>Underweight</span>
         <span className='sp2'>Normal</span>
         <span className='sp3'>Overweight</span>
-      <div className="pipe" style={{position:'absolute', top:'-10px', left:`${((result-14)/(24)) * 100}%`}}>l</div>
+      <div className="pipe" style={{position:'absolute', top:'-28.5px',transition: 'all 0.5s' , left:`${((result-14)/(24)) * 100}%`}}>&darr;</div>
     </div>
+  <FaPerson color='black' size={'25px'} style={{marginTop:'3px'}}/>
+
+  </div>
+
 </div>
   );
 };

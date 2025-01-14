@@ -33,15 +33,17 @@
     display: flex;
     color: white;
     font-size: 11px;
+
   }
   
   .pipe {
     height: 100%;
     position: absolute;
     bottom: 0;
-    font-size: 16px;
+    font-size: 30px;
     color: rgb(19, 15, 15);
-    font-weight: 800;
+    font-weight: 1000;
+
   }
   .sp1{
     background-color: rgb(56, 89, 255);
