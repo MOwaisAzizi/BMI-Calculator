@@ -4,22 +4,26 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #403838;
   margin: 0;
   padding: 0;
 }
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  border: solid 1px black;
+  margin: auto;
+gap: 10px;
 }
 
 .form {
-  background-color: #fff;
+  background-color: rgb(173, 173, 168);
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;

@@ -34,9 +34,10 @@ function App(){
         <h2>{result === 0 ? '' : result.toFixed(2)}</h2>
         {/* <h2>{catagory}</h2> */}
 
-    <Pipe result = {result}/>
 
     </div>
+    <Pipe result = {result}/>
+
 </div>
   )
 }

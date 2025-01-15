@@ -3,16 +3,17 @@
   font-size: 12px;
 }.number-contianer{
     position: relative;
-    width: 100%;
+    width: 92%;
     height: 15px;
+    margin: auto;
 }
 .under{
  position: absolute;
- left: 0;
+ left: 2%;
 }
 .normal{
     position: absolute;
-    left: 16.5%;
+    left: 17%;
    }
    .over{
     position: absolute;
@@ -20,7 +21,7 @@
    }
    .last{
     position: absolute;
-    left: 95%;
+    left: 94%;
    }
 
 .pipe-container {
@@ -35,7 +36,11 @@
     font-size: 11px;
 
   }
-  
+  .containerAllPipe{
+    width: 100%;
+    max-width: 450px;
+    /* padding: 10px; */
+  }
   .pipe {
     height: 100%;
     position: absolute;
