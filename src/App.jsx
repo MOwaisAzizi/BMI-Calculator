@@ -25,8 +25,7 @@ function App(){
             <input type="number" id="weight" onChange={(e)=>setWeight(e.target.value)} placeholder="kg" required/>
         </div>
         <button type="submit" onClick={handleOperation}>Result</button>
-        <h2>{result === 0 ? '' : result.toFixed(2)}</h2>
-        {/* <h2>{catagory}</h2> */}
+        <h2>{result === 0 ? '' : result <= 38 && result > 13 ? result.toFixed(2) : 'Incorrect inputs, please write the height in cm and wieght in kg'}</h2>
 
 
     </div>
