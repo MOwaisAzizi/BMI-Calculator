@@ -8,7 +8,7 @@ function App(){
 
   function handleOperation(){
     if(!hight && !weight) return
-    setResutl(weight / (hight * hight))
+    setResutl(weight / ((hight / 100) * (hight / 100)))
   }
 
   useEffect(function(){
