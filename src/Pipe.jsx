@@ -27,7 +27,7 @@ const Pipe = ({result}) => {
         <span className='sp1'>Skinny</span>
         <span className='sp2'>Normal</span>
         <span className='sp3'>Overweight</span>
-      <div className="pipe" style={{position:'absolute', top:'-25px',transition: 'all 0.5s' , left:`${((result-14)/(24)) * 100}%`}}>&darr;</div>
+      <div className="pipe" style={{position:'absolute', top:'-25.5px',transition: 'all 0.5s' , left:`${((result-14)/(24)) * 100}%`}}>&darr;</div>
     </div>
   <FaPerson color='white' size={'25px'} style={{marginTop:'5px'}}/>
   </div>
