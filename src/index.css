@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #403838;
+  background-color: #0e0e0e;
   margin: 0;
   padding: 0;
 }
@@ -17,14 +17,14 @@ body {
   height: 100vh;
   border: solid 1px black;
   margin: auto;
-gap: 10px;
+  gap: 15px;
 }
 
 .form {
-  background-color: rgb(173, 173, 168);
+  background:linear-gradient(to right, rgb(5, 176, 249),rgb(18, 236, 204));
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
   width: 100%;
   max-width: 400px;
 }
@@ -47,7 +47,7 @@ input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 input:focus {
@@ -58,15 +58,16 @@ input:focus {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #f93add;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0fe5ed;
 }
 
 .flag-toolbar {

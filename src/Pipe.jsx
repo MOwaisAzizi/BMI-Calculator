@@ -26,7 +26,7 @@ const Pipe = ({result}) => {
   <div style={{display:'flex'}}>
   <GiPerson color='white' size={'25px'} style={{marginTop:'3px'}}/>
     <div className="pipe-container" onClick={handleIncrease}>
-        <span className='sp1'>Underweight</span>
+        <span className='sp1'>Slinny</span>
         <span className='sp2'>Normal</span>
         <span className='sp3'>Overweight</span>
       <div className="pipe" style={{position:'absolute', top:'-28.5px',transition: 'all 0.5s' , left:`${((result-14)/(24)) * 100}%`}}>&darr;</div>

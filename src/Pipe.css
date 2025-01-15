@@ -6,6 +6,7 @@
     width: 92%;
     height: 15px;
     margin: auto;
+    color: white;
 }
 .under{
  position: absolute;
@@ -46,24 +47,27 @@
     position: absolute;
     bottom: 0;
     font-size: 30px;
-    color: rgb(19, 15, 15);
+    color: black;
     font-weight: 1000;
-
   }
   .sp1{
-    background-color: rgb(56, 89, 255);
+    background-color: rgb(243, 243, 37);
     width: 19.53%;
     align-content: center;
     text-align: center;
+    color: black;
   }
   .sp2{
     background-color: rgb(36, 240, 17);
     width: 27%;
     align-content: center;
     text-align: center;
+    color: black;
+
   }
   .sp3{
-    background-color: rgb(247, 22, 22);
+    background-color: rgb(254, 16, 16);
+    color: black;
     width: 53.47%;
     align-content: center;
     text-align: center;
