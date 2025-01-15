@@ -22,9 +22,9 @@ body {
 
 .form {
   background:linear-gradient(to right, rgb(5, 176, 249),rgb(18, 236, 204));
-  padding: 20px;
+  padding: 30px 20px;
+  padding-bottom: 20px;
   border-radius: 10px;
-  padding-bottom: 10px;
   width: 100%;
   max-width: 450px;
 }
