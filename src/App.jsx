@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import {useState } from "react"
 import Pipe from "./Pipe"
 
 function App(){
@@ -8,13 +8,9 @@ function App(){
 
   function handleOperation(){
     if(!hight && !weight) return
-    setResutl(weight / ((hight / 100) * (hight / 100)))
+    setResutl(weight / ((hight / 100) ** (hight / 100)))
   }
 
-  useEffect(function(){
-  console.log(result);
-  
-  },[result])
 
   return (
     <div className="container">
