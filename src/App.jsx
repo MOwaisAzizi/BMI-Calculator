@@ -21,7 +21,7 @@ function App(){
       <h1 className="BMI-title">BMI-CHECK</h1>
       <div className="form">
         <div className="form-group" >
-            <label>Hight</label>
+            <label>Height</label>
             <input type="number" id="hight" onChange={(e)=>setHight(e.target.value)} placeholder="cm" required/>
          </div>
         <div className="form-group">
