@@ -27,7 +27,7 @@
 
 .pipe-container {
     width: 100%;
-    height: 35px;
+    height: 40px;
     border: 1px solid #6d6a6a;
     border-radius: 15px;
     position: relative;
@@ -40,6 +40,7 @@
   .containerAllPipe{
     width: 100%;
     max-width: 450px;
+    margin-left: 7px;
     /* padding: 10px; */
   }
   .pipe {
@@ -71,6 +72,11 @@
     width: 53.47%;
     align-content: center;
     text-align: center;
-
   }
   
+  @media only screen and (max-width: 700px) {
+    .containerAllPipe{
+      margin-left: 0px;
+
+    }
+  }

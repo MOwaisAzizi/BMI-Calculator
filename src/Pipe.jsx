@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Pipe.css';
 import { FaPerson } from "react-icons/fa6";
 import { GiPerson } from "react-icons/gi";
@@ -11,27 +11,25 @@ const Pipe = ({result}) => {
       setFillLevel(fillLevel + 10);
     }
   };
-
-  console.log(((result-15)/(38-15)) * 100);
   
   return (
 <div className='containerAllPipe'>
 <div className='number-contianer'>
-<span className='numbers under'>14</span>
+<span className='numbers under'>13</span>
 <span className='numbers normal'>18.5</span>
 <span className='numbers over'>25</span>
 <span className='numbers last'>38</span>
 </div>
 
   <div style={{display:'flex'}}>
-  <GiPerson color='white' size={'25px'} style={{marginTop:'3px'}}/>
+  <GiPerson color='white' size={'25px'} style={{marginTop:'5px'}}/>
     <div className="pipe-container" onClick={handleIncrease}>
-        <span className='sp1'>Slinny</span>
+        <span className='sp1'>Skinny</span>
         <span className='sp2'>Normal</span>
         <span className='sp3'>Overweight</span>
-      <div className="pipe" style={{position:'absolute', top:'-28.5px',transition: 'all 0.5s' , left:`${((result-14)/(24)) * 100}%`}}>&darr;</div>
+      <div className="pipe" style={{position:'absolute', top:'-27px',transition: 'all 0.5s' , left:`${((result-14)/(24)) * 100}%`}}>&darr;</div>
     </div>
-  <FaPerson color='white' size={'25px'} style={{marginTop:'3px'}}/>
+  <FaPerson color='white' size={'25px'} style={{marginTop:'5px'}}/>
 
   </div>
 

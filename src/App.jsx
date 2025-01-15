@@ -5,7 +5,6 @@ function App(){
   const [hight,setHight] = useState(0)
   const [weight,setWeight] = useState(0)
   const [result,setResutl] = useState(0)
-  const [catagory,setCatagory] = useState('')
 
   function handleOperation(){
     if(!hight && !weight) return
@@ -13,14 +12,13 @@ function App(){
   }
 
   useEffect(function(){
-    if(result < 17.1 && result >= 15 ) setCatagory('Underweight')
-      else if(result >= 17.1 && result < 23.2 ) setCatagory('Normal')
-      else if(result >= 23.2 && result < 38 ) setCatagory('overweight')
-      else if( (result < 15 || result >= 38) && result !== 0 ) setCatagory('uncurrect input detected')
+  console.log(result);
+  
   },[result])
 
   return (
     <div className="container">
+      <h1 className="BMI-title">BMI-CHECK</h1>
       <div className="form">
         <div className="form-group" >
             <label>Hight</label>

@@ -17,7 +17,7 @@ body {
   height: 100vh;
   border: solid 1px black;
   margin: auto;
-  gap: 15px;
+  gap: 20px;
 }
 
 .form {
@@ -41,6 +41,7 @@ h2 {
 label {
   display: block;
   margin-bottom: 5px;
+  margin-left: 1px;
 }
 
 input {
@@ -95,7 +96,5 @@ button:hover {
   background-color: rgb(230, 12, 12); 
 }
 h1{
-  background-color: white;
-  color: rgb(255, 47, 0);
-  z-index: 10;
+  color: white;
 }
