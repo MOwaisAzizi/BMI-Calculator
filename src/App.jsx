@@ -11,7 +11,7 @@ function App(){
     setResutl(weight / ((hight / 100) ** (hight / 100)))
   }
 
-
+  //start of Project
   return (
     <div className="container">
       <h1 className="BMI-title">BMI-CHECK</h1>
@@ -26,8 +26,6 @@ function App(){
         </div>
         <button type="submit" onClick={handleOperation}>Result</button>
         <h2>{result === 0 ? '' : result <= 38 && result > 13 ? result.toFixed(2) : 'Incorrect inputs, please write the height in cm and wieght in kg'}</h2>
-
-
     </div>
     <Pipe result = {result}/>
 
