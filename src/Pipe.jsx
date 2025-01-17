@@ -4,6 +4,7 @@ import { FaPerson } from "react-icons/fa6";
 import { GiPerson } from "react-icons/gi";
 
 const Pipe = ({result}) => {
+  //states
   const [fillLevel, setFillLevel] = useState(0);
 
   //handler fuction

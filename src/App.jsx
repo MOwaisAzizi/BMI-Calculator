@@ -28,7 +28,6 @@ function App(){
         <h2>{result === 0 ? '' : result <= 38 && result > 13 ? result.toFixed(2) : 'Incorrect inputs, please write the height in cm and wieght in kg'}</h2>
     </div>
     <Pipe result = {result}/>
-
 </div>
   )
 }
