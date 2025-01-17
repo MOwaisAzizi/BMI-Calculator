@@ -6,6 +6,7 @@ import { GiPerson } from "react-icons/gi";
 const Pipe = ({result}) => {
   const [fillLevel, setFillLevel] = useState(0);
 
+  //handler fuction
   const handleIncrease = () => {
     if (fillLevel < 100) {
       setFillLevel(fillLevel + 10);
